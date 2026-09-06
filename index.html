@@ -1390,204 +1390,138 @@
 
 
         <!-- CONTACT FORM -->
+<form
+  id="demoForm"
+  class="demo-form"
+  action="https://formsubmit.co/cybersoulalerteye@gmail.com"
+  method="POST"
+>
 
-        <form
-          id="demoForm"
-          class="demo-form"
-          action="https://formsubmit.co/cybersoulalerteye@gmail.com"
-          method="POST"
-        >
+  <input
+    type="hidden"
+    name="_subject"
+    value="CyberSoul — Private Demonstration Request"
+  >
 
-          <!-- Email subject -->
+  <input
+    type="hidden"
+    name="_template"
+    value="table"
+  >
 
-          <input
-            type="hidden"
-            name="_subject"
-            value="CyberSoul — Private Demonstration Request"
-          >
+  <!-- Automatic email to the person who submitted the enquiry -->
+  <input
+    type="hidden"
+    name="_autoresponse"
+    value="Thank you for contacting CyberSoul.
 
-          <!-- FormSubmit template -->
+We have received your private demonstration enquiry.
 
-          <input
-            type="hidden"
-            name="_template"
-            value="table"
-          >
+Our team will review your request and contact you shortly.
 
-          <!-- Enable captcha -->
+Thank you for your interest in CyberSoul.
 
-          <input
-            type="hidden"
-            name="_captcha"
-            value="true"
-          >
+CyberSoul
+Intelligence for a Safer World"
+  >
 
-          <!-- Return URL -->
+  <input
+    type="hidden"
+    name="_captcha"
+    value="true"
+  >
 
-          <input
-            type="hidden"
-            name="_next"
-            value="https://cybersoulalerteye.github.io/explore/?submitted=1#demo"
-          >
+  <input
+    type="hidden"
+    name="_next"
+    value="https://cybersoulalerteye.github.io/explore/?submitted=1#demo"
+  >
 
-          <!-- Honeypot spam field -->
+  <input
+    type="text"
+    name="_honey"
+    class="honeypot"
+    tabindex="-1"
+    autocomplete="off"
+    aria-hidden="true"
+  >
 
-          <input
-            type="text"
-            name="_honey"
-            class="honeypot"
-            tabindex="-1"
-            autocomplete="off"
-            aria-hidden="true"
-          >
+  <label>
+    Full name
+    <input
+      required
+      name="name"
+      autocomplete="name"
+      placeholder="Your name"
+    >
+  </label>
 
+  <label>
+    Organization
+    <input
+      required
+      name="organization"
+      placeholder="Organization"
+    >
+  </label>
 
-          <label>
+  <label>
+    Business email
+    <input
+      required
+      type="email"
+      name="email"
+      autocomplete="email"
+      placeholder="name@company.com"
+    >
+  </label>
 
-            Full name
+  <label>
+    Country / Region
+    <select name="region">
+      <option>India</option>
+      <option>United States</option>
+      <option>United Kingdom</option>
+      <option>Europe</option>
+      <option>Middle East</option>
+      <option>Asia Pacific</option>
+      <option>Other</option>
+    </select>
+  </label>
 
-            <input
-              required
-              name="name"
-              autocomplete="name"
-              placeholder="Your name"
-            >
+  <label class="full">
+    Area of interest
+    <select name="interest">
+      <option>AlertEye</option>
+      <option>Enterprise Security</option>
+      <option>Critical Infrastructure</option>
+      <option>Strategic Partnership</option>
+      <option>Investment / Institutional Inquiry</option>
+    </select>
+  </label>
 
-          </label>
+  <label class="full">
+    Message
+    <textarea
+      name="message"
+      rows="4"
+      placeholder="Tell us briefly about your organization or requirement"
+    ></textarea>
+  </label>
 
+  <button
+    class="button button-gold full"
+    type="submit"
+  >
+    Request Private Demonstration
+    <span>→</span>
+  </button>
 
-          <label>
+  <p class="form-note" id="formNote">
+    Inquiries are routed to cybersoulalerteye@gmail.com.
+  </p>
 
-            Organization
-
-            <input
-              required
-              name="organization"
-              placeholder="Organization"
-            >
-
-          </label>
-
-
-          <label>
-
-            Business email
-
-            <input
-              required
-              type="email"
-              name="email"
-              autocomplete="email"
-              placeholder="name@company.com"
-            >
-
-          </label>
-
-
-          <label>
-
-            Country / Region
-
-            <select name="region">
-
-              <option>India</option>
-
-              <option>
-                United States
-              </option>
-
-              <option>
-                United Kingdom
-              </option>
-
-              <option>
-                Europe
-              </option>
-
-              <option>
-                Middle East
-              </option>
-
-              <option>
-                Asia Pacific
-              </option>
-
-              <option>
-                Other
-              </option>
-
-            </select>
-
-          </label>
-
-
-          <label class="full">
-
-            Area of interest
-
-            <select name="interest">
-
-              <option>
-                AlertEye
-              </option>
-
-              <option>
-                Enterprise Security
-              </option>
-
-              <option>
-                Critical Infrastructure
-              </option>
-
-              <option>
-                Strategic Partnership
-              </option>
-
-              <option>
-                Investment / Institutional Inquiry
-              </option>
-
-            </select>
-
-          </label>
-
-
-          <label class="full">
-
-            Message
-
-            <textarea
-              name="message"
-              rows="4"
-              placeholder="Tell us briefly about your organization or requirement"
-            ></textarea>
-
-          </label>
-
-
-          <button
-            class="button button-gold full"
-            type="submit"
-          >
-
-            Request Private Demonstration
-
-            <span>
-              →
-            </span>
-
-          </button>
-
-
-          <p
-            class="form-note"
-            id="formNote"
-          >
-            Inquiries are routed to
-            cybersoulalerteye@gmail.com.
-          </p>
-
-        </form>
+</form>
 
       </div>
 
