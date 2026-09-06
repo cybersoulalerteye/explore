@@ -3,278 +3,1708 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050607">
-  <meta name="description" content="CyberSoul — intelligent security infrastructure for critical environments.">
+
+  <meta
+    name="description"
+    content="CyberSoul — intelligent security infrastructure for critical environments."
+  >
+
+  <meta name="theme-color" content="#070807">
+
   <title>CyberSoul — Intelligence for a Safer World</title>
-<link rel="icon" type="image/png" href="cybersoul-icon.png">
-  <img src="founder-1.jpeg" alt="CyberSoul Founder">
-<img src="founder-2.jpeg" alt="CyberSoul Co-Founder">
-  <link rel="apple-touch-icon" href="assets/cybersoul-icon.png">
+
+  <!-- CyberSoul browser icon -->
+  <link
+    rel="icon"
+    type="image/png"
+    href="./cybersoul-icon.png?v=4"
+  >
+
+  <link
+    rel="apple-touch-icon"
+    href="./cybersoul-icon.png?v=4"
+  >
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
+
   <div class="noise" aria-hidden="true"></div>
-  <div class="progress" id="progress"></div>
+
+  <div
+    class="progress"
+    id="progress"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- ================= HEADER ================= -->
 
   <header class="site-header" id="header">
-    <a class="brand" href="#top" aria-label="CyberSoul home">
-      <span class="brand-mark"><img src="assets/cybersoul-icon.png" alt="" aria-hidden="true"></span>
-      <span>CYBERSOUL</span>
+
+    <a
+      class="brand"
+      href="#top"
+      aria-label="CyberSoul home"
+    >
+
+      <span class="brand-mark">
+        <img
+          src="./cybersoul-icon.png?v=4"
+          alt="CyberSoul"
+        >
+      </span>
+
+      <span class="brand-copy">
+        <strong>CyberSoul</strong>
+        <small>Intelligence for a Safer World</small>
+      </span>
+
     </a>
 
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a class="active" href="#top">Home</a>
-      <a href="#intelligence">Intelligence</a>
-      <a href="#alerteye">AlertEye</a>
-      <a href="#technology">Technology</a>
-      <a href="#applications">Applications</a>
-      <a href="#trust">Trust</a>
-      <a href="#vision">Vision</a>
-      <a href="#leadership">Leadership</a>
+
+    <nav
+      class="desktop-nav"
+      aria-label="Primary navigation"
+    >
+
+      <a
+        class="active"
+        href="#top"
+      >
+        Home
+      </a>
+
+      <a href="#intelligence">
+        Intelligence
+      </a>
+
+      <a href="#alerteye">
+        AlertEye
+      </a>
+
+      <a href="#technology">
+        Technology
+      </a>
+
+      <a href="#applications">
+        Applications
+      </a>
+
+      <a href="#trust">
+        Trust
+      </a>
+
+      <a href="#vision">
+        Vision
+      </a>
+
+      <a href="#leadership">
+        Leadership
+      </a>
+
     </nav>
 
-    <a class="header-cta" href="#demo">Private Demonstration <span>↗</span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
-      <i></i><i></i>
+
+    <a
+      class="header-cta"
+      href="#demo"
+    >
+      Private Demonstration
+      <span>↗</span>
+    </a>
+
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+      type="button"
+    >
+      <i></i>
+      <i></i>
     </button>
+
   </header>
 
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#intelligence">Intelligence</a>
-    <a href="#alerteye">AlertEye</a>
-    <a href="#technology">Technology</a>
-    <a href="#applications">Applications</a>
-    <a href="#trust">Trust</a>
-    <a href="#vision">Vision</a>
-    <a href="#leadership">Leadership</a>
-    <a href="#demo">Private Demonstration</a>
+
+  <!-- ================= MOBILE MENU ================= -->
+
+  <div
+    class="mobile-menu"
+    id="mobileMenu"
+  >
+
+    <a href="#intelligence">
+      Intelligence
+    </a>
+
+    <a href="#alerteye">
+      AlertEye
+    </a>
+
+    <a href="#technology">
+      Technology
+    </a>
+
+    <a href="#applications">
+      Applications
+    </a>
+
+    <a href="#trust">
+      Trust
+    </a>
+
+    <a href="#vision">
+      Vision
+    </a>
+
+    <a href="#leadership">
+      Leadership
+    </a>
+
+    <a href="#demo">
+      Private Demonstration
+    </a>
+
   </div>
 
+
+  <!-- ================= MAIN ================= -->
+
   <main id="top">
+
+
+    <!-- ================= HERO ================= -->
+
     <section class="hero">
+
       <div class="hero-glow"></div>
+
       <div class="orbital orbital-a"></div>
+
       <div class="orbital orbital-b"></div>
+
+
       <div class="world">
+
         <div class="world-grid"></div>
+
         <div class="world-light"></div>
+
         <div class="world-node n1"></div>
         <div class="world-node n2"></div>
         <div class="world-node n3"></div>
         <div class="world-node n4"></div>
         <div class="world-node n5"></div>
+
       </div>
+
 
       <div class="container hero-content reveal">
-        <p class="eyebrow">AI · SECURITY · INFRASTRUCTURE · INTELLIGENCE</p>
-        <h1>Intelligence<br><em>for a safer world.</em></h1>
-        <p class="hero-copy">CyberSoul transforms existing security infrastructure into intelligent, real-time incident intelligence.</p>
+
+        <p class="eyebrow">
+          AI · SECURITY · INFRASTRUCTURE · INTELLIGENCE
+        </p>
+
+        <h1>
+          Intelligence
+          <br>
+          <em>for a safer world.</em>
+        </h1>
+
+        <p class="hero-copy">
+          CyberSoul transforms existing security infrastructure
+          into intelligent, real-time incident intelligence.
+        </p>
+
+
         <div class="hero-actions">
-          <a class="button button-gold" href="#alerteye">Explore AlertEye <span>→</span></a>
-          <a class="button button-outline" href="#demo">Private Demonstration <span>→</span></a>
+
+          <a
+            class="button button-gold"
+            href="#alerteye"
+          >
+            Explore AlertEye
+            <span>→</span>
+          </a>
+
+          <a
+            class="button button-outline"
+            href="#demo"
+          >
+            Private Demonstration
+            <span>→</span>
+          </a>
+
         </div>
-        <div class="scroll-cue"><span></span> Scroll to explore</div>
+
+
+        <div class="scroll-cue">
+
+          <span></span>
+
+          Scroll to explore
+
+        </div>
+
       </div>
 
-      <div class="hero-caption">REAL-TIME INTELLIGENCE<br>FOR CRITICAL ENVIRONMENTS</div>
+
+      <div class="hero-caption">
+
+        REAL-TIME INTELLIGENCE
+        <br>
+        FOR CRITICAL ENVIRONMENTS
+
+      </div>
+
     </section>
 
-    <section class="section intelligence" id="intelligence">
+
+
+    <!-- ================= INTELLIGENCE ================= -->
+
+    <section
+      class="section intelligence"
+      id="intelligence"
+    >
+
       <div class="container">
+
         <div class="section-head reveal">
+
           <div>
-            <p class="section-index">01 / 08</p>
-            <h2>The Intelligence Layer</h2>
+
+            <p class="section-index">
+              01 / 08
+            </p>
+
+            <h2>
+              The Intelligence Layer
+            </h2>
+
           </div>
+
+
           <div>
-            <p class="lead">Security generates data.<br><strong>CyberSoul generates understanding.</strong></p>
-            <p>CyberSoul adds an intelligent layer to existing cameras, sensors and systems — interpreting events, identifying potential threats and delivering actionable incident intelligence to authorized humans.</p>
+
+            <p class="lead">
+              Security generates data.
+              <br>
+              <strong>
+                CyberSoul generates understanding.
+              </strong>
+            </p>
+
+            <p>
+              CyberSoul adds an intelligent layer to existing
+              cameras, sensors and systems — interpreting events,
+              identifying potential threats and delivering
+              actionable incident intelligence to authorized humans.
+            </p>
+
           </div>
+
         </div>
+
 
         <div class="pipeline reveal">
+
           <div class="pipeline-line"></div>
-          <article><span class="icon">◫</span><b>CAMERA</b><small>Existing infrastructure</small></article>
-          <article><span class="icon">◎</span><b>AI VISION</b><small>Detects & interprets</small></article>
-          <article class="featured"><span class="icon">✦</span><b>THREAT ANALYSIS</b><small>Context & risk scoring</small></article>
-          <article><span class="icon">♙</span><b>HUMAN VERIFICATION</b><small>Judgment & validation</small></article>
-          <article><span class="icon">↗</span><b>RESPONSE</b><small>Actionable intelligence</small></article>
+
+
+          <article>
+
+            <span class="icon">◫</span>
+
+            <b>CAMERA</b>
+
+            <small>
+              Existing infrastructure
+            </small>
+
+          </article>
+
+
+          <article>
+
+            <span class="icon">◎</span>
+
+            <b>AI VISION</b>
+
+            <small>
+              Detects & interprets
+            </small>
+
+          </article>
+
+
+          <article class="featured">
+
+            <span class="icon">✦</span>
+
+            <b>THREAT ANALYSIS</b>
+
+            <small>
+              Context & risk scoring
+            </small>
+
+          </article>
+
+
+          <article>
+
+            <span class="icon">♙</span>
+
+            <b>HUMAN VERIFICATION</b>
+
+            <small>
+              Judgment & validation
+            </small>
+
+          </article>
+
+
+          <article>
+
+            <span class="icon">↗</span>
+
+            <b>RESPONSE</b>
+
+            <small>
+              Actionable intelligence
+            </small>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section alerteye" id="alerteye">
+
+
+    <!-- ================= ALERTEYE ================= -->
+
+    <section
+      class="section alerteye"
+      id="alerteye"
+    >
+
       <div class="container split reveal">
+
+
         <div class="copy">
-          <p class="section-index">02 / 08</p>
-          <p class="eyebrow">CYBERSOUL FLAGSHIP</p>
-          <h2>AlertEye</h2>
-          <p class="lead">See the event.<br>Understand the threat.<br><strong>Act with confidence.</strong></p>
-          <p>AlertEye is designed to turn live visual events into structured incident intelligence through AI vision, contextual analysis and human verification.</p>
-          <a class="text-link" href="#demo">Explore AlertEye <span>→</span></a>
+
+          <p class="section-index">
+            02 / 08
+          </p>
+
+          <p class="eyebrow">
+            CYBERSOUL FLAGSHIP
+          </p>
+
+          <h2>
+            AlertEye
+          </h2>
+
+          <p class="lead">
+
+            See the event.
+            <br>
+
+            Understand the threat.
+            <br>
+
+            <strong>
+              Act with confidence.
+            </strong>
+
+          </p>
+
+          <p>
+            AlertEye is designed to turn live visual events
+            into structured incident intelligence through AI
+            vision, contextual analysis and human verification.
+          </p>
+
+          <a
+            class="text-link"
+            href="#demo"
+          >
+            Explore AlertEye
+            <span>→</span>
+          </a>
+
         </div>
+
 
         <div class="console">
-          <div class="console-top"><span>ALERTEYE / LIVE</span><span class="live"><i></i> MONITORING</span></div>
+
+          <div class="console-top">
+
+            <span>
+              ALERTEYE / LIVE
+            </span>
+
+            <span class="live">
+              <i></i>
+              MONITORING
+            </span>
+
+          </div>
+
+
           <div class="camera-feed">
+
             <div class="feed-scan"></div>
+
             <div class="person"></div>
-            <div class="bbox"><span>EVENT DETECTED</span></div>
-            <div class="feed-label">CAM-07 · EAST ATRIUM</div>
+
+            <div class="bbox">
+              <span>
+                EVENT DETECTED
+              </span>
+            </div>
+
+            <div class="feed-label">
+              CAM-07 · EAST ATRIUM
+            </div>
+
           </div>
+
+
           <div class="incident-card">
-            <div class="incident-title"><span class="status-dot"></span> INCIDENT DETECTED <small>02:41:08 UTC</small></div>
-            <div class="incident-row"><span>Threat classification</span><b>Elevated</b></div>
-            <div class="incident-row"><span>Location</span><b>Restricted perimeter</b></div>
-            <div class="incident-row"><span>AI assessment</span><b>87%</b></div>
-            <div class="incident-row"><span>Human verification</span><b>Pending</b></div>
-            <button class="console-button" id="demoIncident">Open incident →</button>
+
+            <div class="incident-title">
+
+              <span class="status-dot"></span>
+
+              INCIDENT DETECTED
+
+              <small>
+                02:41:08 UTC
+              </small>
+
+            </div>
+
+
+            <div class="incident-row">
+
+              <span>
+                Threat classification
+              </span>
+
+              <b>
+                Elevated
+              </b>
+
+            </div>
+
+
+            <div class="incident-row">
+
+              <span>
+                Location
+              </span>
+
+              <b>
+                Restricted perimeter
+              </b>
+
+            </div>
+
+
+            <div class="incident-row">
+
+              <span>
+                AI assessment
+              </span>
+
+              <b>
+                87%
+              </b>
+
+            </div>
+
+
+            <div class="incident-row">
+
+              <span>
+                Human verification
+              </span>
+
+              <b>
+                Pending
+              </b>
+
+            </div>
+
+
+            <button
+              class="console-button"
+              id="demoIncident"
+              type="button"
+            >
+              Open incident →
+            </button>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= THREAT INTELLIGENCE ================= -->
 
     <section class="section threat">
+
       <div class="container">
+
         <div class="section-head reveal">
-          <div><p class="section-index">03 / 08</p><h2>Threat Intelligence</h2></div>
-          <div><p class="lead">From detection<br><strong>to decision.</strong></p><p>Detection alone isn't intelligence. Context allows authorized teams to prioritize attention and make better-informed decisions.</p></div>
-        </div>
-        <div class="steps reveal">
-          <div><b>01</b><h3>Detect</h3><p>Identify unusual or potentially dangerous activity.</p></div>
-          <div><b>02</b><h3>Contextualize</h3><p>Combine visual and operational context.</p></div>
-          <div><b>03</b><h3>Prioritize</h3><p>Surface incidents by potential severity.</p></div>
-          <div><b>04</b><h3>Verify</h3><p>Keep authorized humans in the loop.</p></div>
-          <div><b>05</b><h3>Respond</h3><p>Provide actionable information.</p></div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section applications" id="applications">
-      <div class="container">
-        <div class="section-title-row reveal">
-          <div><p class="section-index">04 / 08</p><h2>Global Applications</h2><p>One intelligence layer. Many critical environments.</p></div>
-          <a class="text-link" href="#demo">Explore applications →</a>
-        </div>
-        <div class="application-grid reveal">
-          <article class="app-card"><div class="app-image app-1"></div><div><span>01</span><h3>Enterprise</h3><p>Offices & campuses</p></div></article>
-          <article class="app-card"><div class="app-image app-2"></div><div><span>02</span><h3>Critical Infrastructure</h3><p>Energy, utilities & industrial operations</p></div></article>
-          <article class="app-card"><div class="app-image app-3"></div><div><span>03</span><h3>Transportation</h3><p>Airports, logistics & transit</p></div></article>
-          <article class="app-card"><div class="app-image app-4"></div><div><span>04</span><h3>Smart Cities</h3><p>Urban environments & public safety</p></div></article>
-          <article class="app-card"><div class="app-image app-5"></div><div><span>05</span><h3>Premium Venues</h3><p>Hotels, stadiums & events</p></div></article>
-          <article class="app-card"><div class="app-image app-6"></div><div><span>06</span><h3>Institutional Security</h3><p>Controlled access & auditability</p></div></article>
-        </div>
-      </div>
-    </section>
+          <div>
 
-    <section class="section technology" id="technology">
-      <div class="container tech-wrap reveal">
-        <div class="tech-copy">
-          <p class="section-index">05 / 08</p>
-          <h2>Engineered<br><em>for the edge.</em></h2>
-          <p>Advanced technology for real-world environments, designed to complement existing systems.</p>
-          <a class="text-link" href="#demo">Explore technology →</a>
-        </div>
-        <div class="tech-grid">
-          <div><span>✦</span><h3>AI Vision</h3><p>Computer vision for real-world interpretation.</p></div>
-          <div><span>◉</span><h3>Edge Intelligence</h3><p>Process closer to the source.</p></div>
-          <div><span>↔</span><h3>APIs & Integration</h3><p>Work with existing systems.</p></div>
-          <div><span>⌁</span><h3>Analytics</h3><p>Turn events into operational intelligence.</p></div>
-          <div><span>◇</span><h3>Secure Architecture</h3><p>Designed for security, access and scale.</p></div>
-        </div>
-        <div class="chip-art"><div class="chip-logo">CS</div><div class="chip-trace t1"></div><div class="chip-trace t2"></div><div class="chip-trace t3"></div></div>
-      </div>
-    </section>
+            <p class="section-index">
+              03 / 08
+            </p>
 
-    <section class="section trust" id="trust">
-      <div class="container split trust-split reveal">
-        <div class="eye-art"><div class="eye-ring"></div><div class="eye-core"></div></div>
-        <div>
-          <p class="section-index">06 / 08</p>
-          <p class="eyebrow">TRUST & PRIVACY</p>
-          <h2>Power without<br><em>compromising trust.</em></h2>
-          <p>Advanced intelligence should never come at the expense of accountability, security or responsible use.</p>
-          <div class="trust-list">
-            <div><b>Human Oversight</b><span>AI assists. Humans remain accountable.</span></div>
-            <div><b>Access Control</b><span>Information for authorized personnel.</span></div>
-            <div><b>Auditability</b><span>Clear operational trails.</span></div>
-            <div><b>Data Protection</b><span>Security by design.</span></div>
-            <div><b>Responsible AI</b><span>Transparency, controls and responsibility.</span></div>
+            <h2>
+              Threat Intelligence
+            </h2>
+
           </div>
+
+
+          <div>
+
+            <p class="lead">
+
+              From detection
+              <br>
+
+              <strong>
+                to decision.
+              </strong>
+
+            </p>
+
+            <p>
+              Detection alone isn't intelligence.
+              Context allows authorized teams to prioritize
+              attention and make better-informed decisions.
+            </p>
+
+          </div>
+
         </div>
+
+
+        <div class="steps reveal">
+
+
+          <div>
+
+            <b>01</b>
+
+            <h3>
+              Detect
+            </h3>
+
+            <p>
+              Identify unusual or potentially dangerous activity.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <b>02</b>
+
+            <h3>
+              Contextualize
+            </h3>
+
+            <p>
+              Combine visual and operational context.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <b>03</b>
+
+            <h3>
+              Prioritize
+            </h3>
+
+            <p>
+              Surface incidents by potential severity.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <b>04</b>
+
+            <h3>
+              Verify
+            </h3>
+
+            <p>
+              Keep authorized humans in the loop.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <b>05</b>
+
+            <h3>
+              Respond
+            </h3>
+
+            <p>
+              Provide actionable information.
+            </p>
+
+          </div>
+
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="section vision" id="vision">
-      <div class="container vision-grid reveal">
-        <div>
-          <p class="section-index">07 / 08</p>
-          <h2>A safer world,<br><em>intelligently connected.</em></h2>
-          <p>CyberSoul is building an intelligent security layer for the physical world — connecting people, places, events and intelligence into a clearer operational picture.</p>
-          <a class="text-link" href="#demo">Our vision →</a>
-        </div>
-        <div class="globe-mini"><div class="mini-grid"></div><div class="mini-node"></div></div>
-      </div>
-    </section>
 
-    <section class="section leadership" id="leadership">
+
+    <!-- ================= APPLICATIONS ================= -->
+
+    <section
+      class="section applications"
+      id="applications"
+    >
+
       <div class="container">
-        <div class="section-title-row reveal"><div><p class="section-index">08 / 08</p><h2>Built with long-term conviction.</h2></div></div>
-        <div class="leaders reveal">
-          <article class="leader"><div class="portrait portrait-photo"><img src="assets/founder-1.jpeg" alt="Jayaraj S Jaykar, CyberSoul Founder"></div><h3>Jayaraj S Jaykar</h3><p>Founder · Vision, strategy, partnerships and long-term growth.</p></article>
-          <article class="leader"><div class="portrait portrait-photo"><img src="assets/founder-2.jpeg" alt="Samarth G Laturkar, CyberSoul Co-Founder"></div><h3>Samarth G Laturkar</h3><p>Co-Founder · AI, vision systems and platform architecture.</p></article>
+
+
+        <div class="section-title-row reveal">
+
+          <div>
+
+            <p class="section-index">
+              04 / 08
+            </p>
+
+            <h2>
+              Global Applications
+            </h2>
+
+            <p>
+              One intelligence layer.
+              Many critical environments.
+            </p>
+
+          </div>
+
+
+          <a
+            class="text-link"
+            href="#demo"
+          >
+            Explore applications →
+          </a>
+
         </div>
+
+
+        <div class="application-grid reveal">
+
+
+          <article class="app-card">
+
+            <div class="app-image app-1"></div>
+
+            <div>
+
+              <span>01</span>
+
+              <h3>
+                Enterprise
+              </h3>
+
+              <p>
+                Offices & campuses
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="app-card">
+
+            <div class="app-image app-2"></div>
+
+            <div>
+
+              <span>02</span>
+
+              <h3>
+                Critical Infrastructure
+              </h3>
+
+              <p>
+                Energy, utilities & industrial operations
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="app-card">
+
+            <div class="app-image app-3"></div>
+
+            <div>
+
+              <span>03</span>
+
+              <h3>
+                Transportation
+              </h3>
+
+              <p>
+                Airports, logistics & transit
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="app-card">
+
+            <div class="app-image app-4"></div>
+
+            <div>
+
+              <span>04</span>
+
+              <h3>
+                Smart Cities
+              </h3>
+
+              <p>
+                Urban environments & public safety
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="app-card">
+
+            <div class="app-image app-5"></div>
+
+            <div>
+
+              <span>05</span>
+
+              <h3>
+                Premium Venues
+              </h3>
+
+              <p>
+                Hotels, stadiums & events
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="app-card">
+
+            <div class="app-image app-6"></div>
+
+            <div>
+
+              <span>06</span>
+
+              <h3>
+                Institutional Security
+              </h3>
+
+              <p>
+                Controlled access & auditability
+              </p>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="section demo" id="demo">
-      <div class="container demo-card reveal">
-        <div class="demo-backdrop"></div>
-        <div class="demo-copy">
-          <p class="eyebrow">PRIVATE ACCESS</p>
-          <h2>See CyberSoul<br><em>in operation.</em></h2>
-          <p>Request a private demonstration of the CyberSoul intelligence platform.</p>
-          <small>Demonstrations are provided to qualified organizations and strategic partners.</small>
+
+
+    <!-- ================= TECHNOLOGY ================= -->
+
+    <section
+      class="section technology"
+      id="technology"
+    >
+
+      <div class="container tech-wrap reveal">
+
+
+        <div class="tech-copy">
+
+          <p class="section-index">
+            05 / 08
+          </p>
+
+          <h2>
+
+            Engineered
+            <br>
+
+            <em>
+              for the edge.
+            </em>
+
+          </h2>
+
+          <p>
+            Advanced technology for real-world environments,
+            designed to complement existing systems.
+          </p>
+
+          <a
+            class="text-link"
+            href="#demo"
+          >
+            Explore technology →
+          </a>
+
         </div>
-        <form id="demoForm" class="demo-form" action="https://formsubmit.co/cybersoulalerteye@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="CyberSoul — Private Demonstration Request">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-          <label>Full name<input required name="name" autocomplete="name" placeholder="Your name"></label>
-          <label>Organization<input required name="organization" placeholder="Organization"></label>
-          <label>Business email<input required type="email" name="email" autocomplete="email" placeholder="name@company.com"></label>
-          <label>Country / Region<select name="region"><option>India</option><option>United States</option><option>United Kingdom</option><option>Europe</option><option>Middle East</option><option>Asia Pacific</option><option>Other</option></select></label>
-          <label class="full">Area of interest<select name="interest"><option>AlertEye</option><option>Enterprise Security</option><option>Critical Infrastructure</option><option>Strategic Partnership</option><option>Investment / Institutional Inquiry</option></select></label>
-          <label class="full">Message<textarea name="message" rows="4" placeholder="Tell us briefly about your organization or requirement"></textarea></label>
-          <button class="button button-gold full" type="submit">Request Private Demonstration <span>→</span></button>
-          <p class="form-note" id="formNote">Private inquiries are delivered to cybersoulalerteye@gmail.com.</p>
-        </form>
+
+
+        <div class="tech-grid">
+
+
+          <div>
+
+            <span>✦</span>
+
+            <h3>
+              AI Vision
+            </h3>
+
+            <p>
+              Computer vision for real-world interpretation.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span>◉</span>
+
+            <h3>
+              Edge Intelligence
+            </h3>
+
+            <p>
+              Process closer to the source.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span>↔</span>
+
+            <h3>
+              APIs & Integration
+            </h3>
+
+            <p>
+              Work with existing systems.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span>⌁</span>
+
+            <h3>
+              Analytics
+            </h3>
+
+            <p>
+              Turn events into operational intelligence.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span>◇</span>
+
+            <h3>
+              Secure Architecture
+            </h3>
+
+            <p>
+              Designed for security, access and scale.
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="chip-art">
+
+          <div class="chip-logo">
+            CS
+          </div>
+
+          <div class="chip-trace t1"></div>
+          <div class="chip-trace t2"></div>
+          <div class="chip-trace t3"></div>
+
+        </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= TRUST ================= -->
+
+    <section
+      class="section trust"
+      id="trust"
+    >
+
+      <div class="container split trust-split reveal">
+
+
+        <div class="eye-art">
+
+          <div class="eye-ring"></div>
+
+          <div class="eye-core"></div>
+
+        </div>
+
+
+        <div>
+
+          <p class="section-index">
+            06 / 08
+          </p>
+
+          <p class="eyebrow">
+            TRUST & PRIVACY
+          </p>
+
+          <h2>
+
+            Power without
+            <br>
+
+            <em>
+              compromising trust.
+            </em>
+
+          </h2>
+
+          <p>
+            Advanced intelligence should never come at
+            the expense of accountability, security or
+            responsible use.
+          </p>
+
+
+          <div class="trust-list">
+
+
+            <div>
+
+              <b>
+                Human Oversight
+              </b>
+
+              <span>
+                AI assists. Humans remain accountable.
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <b>
+                Access Control
+              </b>
+
+              <span>
+                Information for authorized personnel.
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <b>
+                Auditability
+              </b>
+
+              <span>
+                Clear operational trails.
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <b>
+                Data Protection
+              </b>
+
+              <span>
+                Security by design.
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <b>
+                Responsible AI
+              </b>
+
+              <span>
+                Transparency, controls and responsibility.
+              </span>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= VISION ================= -->
+
+    <section
+      class="section vision"
+      id="vision"
+    >
+
+      <div class="container vision-grid reveal">
+
+
+        <div>
+
+          <p class="section-index">
+            07 / 08
+          </p>
+
+          <h2>
+
+            A safer world,
+            <br>
+
+            <em>
+              intelligently connected.
+            </em>
+
+          </h2>
+
+          <p>
+            CyberSoul is building an intelligent security
+            layer for the physical world — connecting
+            people, places, events and intelligence into
+            a clearer operational picture.
+          </p>
+
+          <a
+            class="text-link"
+            href="#demo"
+          >
+            Our vision →
+          </a>
+
+        </div>
+
+
+        <div class="globe-mini">
+
+          <div class="mini-grid"></div>
+
+          <div class="mini-node"></div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= LEADERSHIP ================= -->
+
+    <section
+      class="section leadership"
+      id="leadership"
+    >
+
+      <div class="container">
+
+
+        <div class="section-title-row reveal">
+
+          <div>
+
+            <p class="section-index">
+              08 / 08
+            </p>
+
+            <h2>
+              Built with long-term conviction.
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="leaders reveal">
+
+
+          <!-- Founder 1 -->
+
+          <article class="leader">
+
+            <div class="portrait portrait-photo">
+
+              <img
+                src="./founder-1.jpeg"
+                alt="CyberSoul Founder"
+                loading="lazy"
+              >
+
+            </div>
+
+            <h3>
+              Jayaraj S Jaykar
+            </h3>
+
+            <p>
+              Founder · Vision, strategy, partnerships
+              and long-term growth.
+            </p>
+
+          </article>
+
+
+          <!-- Founder 2 -->
+
+          <article class="leader">
+
+            <div class="portrait portrait-photo">
+
+              <img
+                src="./founder-2.jpeg"
+                alt="CyberSoul Co-Founder"
+                loading="lazy"
+              >
+
+            </div>
+
+            <h3>
+              Samarth G Laturkar
+            </h3>
+
+            <p>
+              Co-Founder · AI, vision systems
+              and platform architecture.
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= PRIVATE DEMO ================= -->
+
+    <section
+      class="section demo"
+      id="demo"
+    >
+
+      <div class="container demo-card reveal">
+
+
+        <div class="demo-backdrop"></div>
+
+
+        <div class="demo-copy">
+
+          <p class="eyebrow">
+            PRIVATE ACCESS
+          </p>
+
+          <h2>
+
+            See CyberSoul
+            <br>
+
+            <em>
+              in operation.
+            </em>
+
+          </h2>
+
+          <p>
+            Request a private demonstration of the
+            CyberSoul intelligence platform.
+          </p>
+
+          <small>
+            Demonstrations are provided to qualified
+            organizations and strategic partners.
+          </small>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+
+        <form
+          id="demoForm"
+          class="demo-form"
+          action="https://formsubmit.co/cybersoulalerteye@gmail.com"
+          method="POST"
+        >
+
+          <!-- Email subject -->
+
+          <input
+            type="hidden"
+            name="_subject"
+            value="CyberSoul — Private Demonstration Request"
+          >
+
+          <!-- FormSubmit template -->
+
+          <input
+            type="hidden"
+            name="_template"
+            value="table"
+          >
+
+          <!-- Enable captcha -->
+
+          <input
+            type="hidden"
+            name="_captcha"
+            value="true"
+          >
+
+          <!-- Return URL -->
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://cybersoulalerteye.github.io/explore/?submitted=1#demo"
+          >
+
+          <!-- Honeypot spam field -->
+
+          <input
+            type="text"
+            name="_honey"
+            class="honeypot"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+          >
+
+
+          <label>
+
+            Full name
+
+            <input
+              required
+              name="name"
+              autocomplete="name"
+              placeholder="Your name"
+            >
+
+          </label>
+
+
+          <label>
+
+            Organization
+
+            <input
+              required
+              name="organization"
+              placeholder="Organization"
+            >
+
+          </label>
+
+
+          <label>
+
+            Business email
+
+            <input
+              required
+              type="email"
+              name="email"
+              autocomplete="email"
+              placeholder="name@company.com"
+            >
+
+          </label>
+
+
+          <label>
+
+            Country / Region
+
+            <select name="region">
+
+              <option>India</option>
+
+              <option>
+                United States
+              </option>
+
+              <option>
+                United Kingdom
+              </option>
+
+              <option>
+                Europe
+              </option>
+
+              <option>
+                Middle East
+              </option>
+
+              <option>
+                Asia Pacific
+              </option>
+
+              <option>
+                Other
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <label class="full">
+
+            Area of interest
+
+            <select name="interest">
+
+              <option>
+                AlertEye
+              </option>
+
+              <option>
+                Enterprise Security
+              </option>
+
+              <option>
+                Critical Infrastructure
+              </option>
+
+              <option>
+                Strategic Partnership
+              </option>
+
+              <option>
+                Investment / Institutional Inquiry
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <label class="full">
+
+            Message
+
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Tell us briefly about your organization or requirement"
+            ></textarea>
+
+          </label>
+
+
+          <button
+            class="button button-gold full"
+            type="submit"
+          >
+
+            Request Private Demonstration
+
+            <span>
+              →
+            </span>
+
+          </button>
+
+
+          <p
+            class="form-note"
+            id="formNote"
+          >
+            Inquiries are routed to
+            cybersoulalerteye@gmail.com.
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+
+  <!-- ================= FOOTER ================= -->
+
   <footer class="footer">
+
     <div class="container footer-inner">
-      <a class="brand" href="#top"><span class="brand-mark"><img src="assets/cybersoul-icon.png" alt="" aria-hidden="true"></span><span>CYBERSOUL</span></a>
-      <span>INTELLIGENCE FOR A SAFER WORLD.</span>
-      <div><a href="#trust">Privacy</a><a href="#trust">Trust</a><a href="#demo">Contact</a></div>
+
+
+      <a
+        class="brand"
+        href="#top"
+      >
+
+        <span class="brand-mark">
+
+          <img
+            src="./cybersoul-icon.png?v=4"
+            alt="CyberSoul"
+          >
+
+        </span>
+
+
+        <span class="brand-copy">
+
+          <strong>
+            CyberSoul
+          </strong>
+
+          <small>
+            Intelligence for a Safer World
+          </small>
+
+        </span>
+
+      </a>
+
+
+      <span>
+        INTELLIGENCE FOR A SAFER WORLD.
+      </span>
+
+
+      <div>
+
+        <a href="#trust">
+          Privacy
+        </a>
+
+        <a href="#trust">
+          Trust
+        </a>
+
+        <a href="#demo">
+          Contact
+        </a>
+
+      </div>
+
     </div>
+
   </footer>
 
-  <div class="modal" id="incidentModal" aria-hidden="true">
+
+
+  <!-- ================= INCIDENT MODAL ================= -->
+
+  <div
+    class="modal"
+    id="incidentModal"
+    aria-hidden="true"
+  >
+
     <div class="modal-box">
-      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
-      <p class="eyebrow">ALERTEYE / DEMONSTRATION</p>
-      <h2>Incident intelligence</h2>
-      <p>This showcase simulates an incident workflow. Replace the demo data with your authorized camera, event and response integrations before production deployment.</p>
-      <div class="modal-data"><span>EVENT</span><b>Potential perimeter anomaly</b><span>STATUS</span><b>Human verification required</b><span>PRIORITY</span><b>Elevated</b></div>
-      <button class="button button-gold" id="modalOk">Return to platform <span>→</span></button>
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        aria-label="Close"
+        type="button"
+      >
+        ×
+      </button>
+
+
+      <p class="eyebrow">
+        ALERTEYE / DEMONSTRATION
+      </p>
+
+      <h2>
+        Incident intelligence
+      </h2>
+
+      <p>
+        This showcase simulates an incident workflow.
+        Replace the demo data with your authorized camera,
+        event and response integrations before production
+        deployment.
+      </p>
+
+
+      <div class="modal-data">
+
+        <span>
+          EVENT
+        </span>
+
+        <b>
+          Potential perimeter anomaly
+        </b>
+
+
+        <span>
+          STATUS
+        </span>
+
+        <b>
+          Human verification required
+        </b>
+
+
+        <span>
+          PRIORITY
+        </span>
+
+        <b>
+          Elevated
+        </b>
+
+      </div>
+
+
+      <button
+        class="button button-gold"
+        id="modalOk"
+        type="button"
+      >
+
+        Return to platform
+
+        <span>
+          →
+        </span>
+
+      </button>
+
     </div>
+
   </div>
 
-  <script src="script.js"></script>
+
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <script src="./script.js"></script>
+
 </body>
 </html>
